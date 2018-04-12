@@ -8,6 +8,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ObservadorDeFora.unity
     guid: 4b7231808e42d904183261e1db378baa
-  - enabled: 1
-    path: Assets/Scenes/ObservadorDeDentro.unity
-    guid: 47bc5ed7ed359a3489197cb4491e3c00

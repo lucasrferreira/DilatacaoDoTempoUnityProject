@@ -19,7 +19,7 @@ public class Velocidade : MonoBehaviour
 	private void FixedUpdate ()
 	{
 		var speed = Speed * C;
-		var newPos = transform.position +=  speed * Time.fixedDeltaTime;
+		var newPos = transform.position += speed * Time.fixedDeltaTime;
 		_rigidbody2D.MovePosition(newPos);
 		
 		

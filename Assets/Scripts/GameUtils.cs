@@ -21,6 +21,11 @@ public class GameUtils : MonoBehaviour {
 	{
 		Time.timeScale = 0f;
 	}
+	
+	public static void StaticPause()
+	{
+		Time.timeScale = 0f;
+	}
 
 	// ReSharper disable once MemberCanBePrivate.Global
 	// ReSharper disable once MemberCanBeMadeStatic.Global
