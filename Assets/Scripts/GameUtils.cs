@@ -4,6 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameUtils : MonoBehaviour {
+	
+	
+	private void Start()
+	{
+		Pause();
+	}
 
 	public void Replay()
 	{
